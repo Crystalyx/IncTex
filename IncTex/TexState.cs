@@ -21,7 +21,6 @@ namespace IncTex
 
         private void FillCategories() //call in constructor
         {
-            //use [] instead of dictionary
             for (int i = 0; i < 128; i++)
             {
                 _categories[i] = Other;
